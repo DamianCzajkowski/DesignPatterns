@@ -4,6 +4,7 @@ class Socket:
 
         self.voltage = voltage
 
+
 class EuropeanSocket(Socket):
 
     def __init__(self):

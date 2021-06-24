@@ -6,6 +6,6 @@ class Device:
             print(f"too much voltage warning! your device burned")
         else:
             print("charging")
-    
+
     def charge(self, input_voltage):
         self.__try_charge(input_voltage)
