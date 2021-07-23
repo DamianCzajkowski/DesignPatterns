@@ -1,4 +1,4 @@
-from image import Image, ProxyImage
+from .image import Image, ProxyImage
 
 
 my_image = Image("C:\\image.img")

@@ -1,5 +1,5 @@
 from typing import List
-from director import Director
+from .director import Director
 
 data = [
     ['Jan', 'Kowalski', 27, '111-222-333', 'Poland'],
@@ -17,5 +17,5 @@ data2 = [
 ]
 
 director = Director()
-director.set_data(data2) 
+director.set_data(data2)
 director.create_csv()
